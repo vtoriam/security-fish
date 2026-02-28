@@ -1,0 +1,732 @@
+{
+  "data": [
+    {
+      "time": 0,
+      "data": {
+        "ai_generated": {
+          "title": "AI-Generated",
+          "items": [
+            {
+              "text": "stablediffusion: 93.9%",
+              "id": "stablediffusion",
+              "score": 0.9395739811592512,
+              "textColor": "red",
+              "textColorVariant": 500
+            },
+            {
+              "text": "stablediffusionxl: 2.7%",
+              "id": "stablediffusionxl",
+              "score": 0.027934023608009,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "other_image_generators: 0.2%",
+              "id": "other_image_generators",
+              "score": 0.0021480484823971305,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "flux: 0%",
+              "id": "flux",
+              "score": 0.0005348440317442445,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "4o: 0%",
+              "id": "4o",
+              "score": 0.0002070060131493598,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "sdxlinpaint: 0%",
+              "id": "sdxlinpaint",
+              "score": 0.00006839454466651246,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "pika: 0%",
+              "id": "pika",
+              "score": 0.00006681894815457739,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "adobefirefly: 0%",
+              "id": "adobefirefly",
+              "score": 0.00005574119350482828,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "kling: 0%",
+              "id": "kling",
+              "score": 0.0000376328066538588,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "ideogram: 0%",
+              "id": "ideogram",
+              "score": 0.00003303923611822161,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "dalle: 0%",
+              "id": "dalle",
+              "score": 0.00002940758608847835,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "leonardo: 0%",
+              "id": "leonardo",
+              "score": 0.000027166295345409804,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "grok: 0%",
+              "id": "grok",
+              "score": 0.000023092208780309462,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "var: 0%",
+              "id": "var",
+              "score": 0.00001925785494150779,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "imagen4: 0%",
+              "id": "imagen4",
+              "score": 0.000011325017951808692,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "viduq2: 0%",
+              "id": "viduq2",
+              "score": 0.000008815963588484213,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "recraft: 0%",
+              "id": "recraft",
+              "score": 0.000007908187822150825,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "infinity: 0%",
+              "id": "infinity",
+              "score": 0.000006749494429654855,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "ray3: 0%",
+              "id": "ray3",
+              "score": 0.000006167134323664731,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "cosmos: 0%",
+              "id": "cosmos",
+              "score": 0.000005829811448711184,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "midjourney: 0%",
+              "id": "midjourney",
+              "score": 0.000005523324751850852,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "reve: 0%",
+              "id": "reve",
+              "score": 0.000004553789052990029,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "krea: 0%",
+              "id": "krea",
+              "score": 0.00000363959671830318,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "qwen: 0%",
+              "id": "qwen",
+              "score": 0.0000030969307194689116,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "wan: 0%",
+              "id": "wan",
+              "score": 0.000003054729416947613,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "bagel: 0%",
+              "id": "bagel",
+              "score": 0.0000029427497008607965,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "gan: 0%",
+              "id": "gan",
+              "score": 0.000002717774165731633,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "liveportrait: 0%",
+              "id": "liveportrait",
+              "score": 0.0000024429463542493717,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "cogvideos: 0%",
+              "id": "cogvideos",
+              "score": 0.0000024360669136212885,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "zimage: 0%",
+              "id": "zimage",
+              "score": 0.0000020476866888587685,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "pyramidflows: 0%",
+              "id": "pyramidflows",
+              "score": 0.0000016356671955430758,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "meta: 0%",
+              "id": "meta",
+              "score": 0.0000016281152983570322,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "gptimage1_5: 0%",
+              "id": "gptimage1_5",
+              "score": 0.000001415035363895174,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "grokimagine: 0%",
+              "id": "grokimagine",
+              "score": 0.0000011255418687047118,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "ltx: 0%",
+              "id": "ltx",
+              "score": 0.0000010394910747905843,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "imagen: 0%",
+              "id": "imagen",
+              "score": 0.000001007546529701452,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "lcm: 0%",
+              "id": "lcm",
+              "score": 8.493809905135742e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "kandinsky: 0%",
+              "id": "kandinsky",
+              "score": 8.35062395553076e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "dmd2: 0%",
+              "id": "dmd2",
+              "score": 7.900720908457888e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "seedance2: 0%",
+              "id": "seedance2",
+              "score": 7.645415049498227e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "stablediffusioninpaint: 0%",
+              "id": "stablediffusioninpaint",
+              "score": 6.644837162565743e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "sora2: 0%",
+              "id": "sora2",
+              "score": 6.419990236467795e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "hidream: 0%",
+              "id": "hidream",
+              "score": 5.272774846518566e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "ovis: 0%",
+              "id": "ovis",
+              "score": 5.167454002507127e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "wuerstchen: 0%",
+              "id": "wuerstchen",
+              "score": 4.415246500168008e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "seedream: 0%",
+              "id": "seedream",
+              "score": 3.939752650763133e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "hunyuan: 0%",
+              "id": "hunyuan",
+              "score": 3.642670593057966e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "gemini3: 0%",
+              "id": "gemini3",
+              "score": 3.34916686202909e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "flux2: 0%",
+              "id": "flux2",
+              "score": 3.340418324435068e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "mai: 0%",
+              "id": "mai",
+              "score": 2.979777769967706e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "stablecascade: 0%",
+              "id": "stablecascade",
+              "score": 2.7204472880199937e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "vibe: 0%",
+              "id": "vibe",
+              "score": 2.5722403306098853e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "mcnet: 0%",
+              "id": "mcnet",
+              "score": 2.542100689356946e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "vqdiffusion: 0%",
+              "id": "vqdiffusion",
+              "score": 2.2927497055578058e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "sora: 0%",
+              "id": "sora",
+              "score": 2.1819863704055897e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "hedra: 0%",
+              "id": "hedra",
+              "score": 2.1051390876264786e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "seedance: 0%",
+              "id": "seedance",
+              "score": 1.7829056848013913e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "glide: 0%",
+              "id": "glide",
+              "score": 1.677278747648225e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "heygen: 0%",
+              "id": "heygen",
+              "score": 1.5476306251913687e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "mochi: 0%",
+              "id": "mochi",
+              "score": 1.3821806770266233e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "personalive: 0%",
+              "id": "personalive",
+              "score": 1.1529149172609694e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "sanavideo: 0%",
+              "id": "sanavideo",
+              "score": 1.1107911299978067e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "sadtalker: 0%",
+              "id": "sadtalker",
+              "score": 1.0394789597162329e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "veo3: 0%",
+              "id": "veo3",
+              "score": 1.0371243540975225e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "bingimagecreator: 0%",
+              "id": "bingimagecreator",
+              "score": 1.0217039080705797e-7,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "bria: 0%",
+              "id": "bria",
+              "score": 8.1385447481594e-8,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "moonvalley: 0%",
+              "id": "moonvalley",
+              "score": 8.07992924745291e-8,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "runway: 0%",
+              "id": "runway",
+              "score": 7.122049627645035e-8,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "steadydancer: 0%",
+              "id": "steadydancer",
+              "score": 6.387151281232574e-8,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "makeittalk: 0%",
+              "id": "makeittalk",
+              "score": 6.323413815271703e-8,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "aniportrait: 0%",
+              "id": "aniportrait",
+              "score": 5.962986502768793e-8,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "titan: 0%",
+              "id": "titan",
+              "score": 5.777080563604707e-8,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "gemini: 0%",
+              "id": "gemini",
+              "score": 5.227757404566976e-8,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "longcat: 0%",
+              "id": "longcat",
+              "score": 5.118973356853859e-8,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "lucid: 0%",
+              "id": "lucid",
+              "score": 3.2155491621088636e-8,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "flashvideo: 0%",
+              "id": "flashvideo",
+              "score": 2.594607834974825e-8,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "switti: 0%",
+              "id": "switti",
+              "score": 2.3304109385394313e-8,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "higgsfield: 0%",
+              "id": "higgsfield",
+              "score": 2.2368973458170932e-8,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "hallo: 0%",
+              "id": "hallo",
+              "score": 2.2059774025978303e-8,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "luma: 0%",
+              "id": "luma",
+              "score": 2.1581593771624747e-8,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "deepfloyd: 0%",
+              "id": "deepfloyd",
+              "score": 1.9111153765685333e-8,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "luminagpt: 0%",
+              "id": "luminagpt",
+              "score": 1.2756452796069584e-8,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "omnigen: 0%",
+              "id": "omnigen",
+              "score": 1.1509730045290238e-8,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "pixverse: 0%",
+              "id": "pixverse",
+              "score": 8.329557978009123e-9,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "transpixar: 0%",
+              "id": "transpixar",
+              "score": 7.799385979710528e-9,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "amused: 0%",
+              "id": "amused",
+              "score": 7.321183952312307e-9,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "hailuo: 0%",
+              "id": "hailuo",
+              "score": 5.659715863078376e-9,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "scail: 0%",
+              "id": "scail",
+              "score": 5.577644189581493e-9,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "janus: 0%",
+              "id": "janus",
+              "score": 5.457534951882812e-9,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "dreamid: 0%",
+              "id": "dreamid",
+              "score": 5.313788583722107e-9,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "pixart: 0%",
+              "id": "pixart",
+              "score": 4.838281480799997e-9,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "cogview: 0%",
+              "id": "cogview",
+              "score": 3.2232431155676015e-9,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "imagineart: 0%",
+              "id": "imagineart",
+              "score": 2.725430690497388e-9,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "sana: 0%",
+              "id": "sana",
+              "score": 2.711776462631684e-9,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "blip3o: 0%",
+              "id": "blip3o",
+              "score": 1.054711519856521e-9,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "emu3: 0%",
+              "id": "emu3",
+              "score": 6.438818086821686e-10,
+              "textColor": "grey",
+              "textColorVariant": 400
+            },
+            {
+              "text": "haiper: 0%",
+              "id": "haiper",
+              "score": 2.345829052901876e-13,
+              "textColor": "grey",
+              "textColorVariant": 400
+            }
+          ],
+          "order": 1,
+          "score": "97.4%",
+          "textColor": "red",
+          "textColorVariant": 500
+        },
+        "ai_generated_audio": {
+          "title": "AI-Generated Speech",
+          "order": 2
+        },
+        "ai_generated_music": {
+          "title": "AI-Generated Music",
+          "items": [],
+          "order": 3
+        },
+        "deepfake": {
+          "title": "Deepfake",
+          "order": 4,
+          "score": "0%",
+          "textColor": "grey",
+          "textColorVariant": 400
+        },
+        "ai_generated_music_cover": {
+          "title": "AI-Generated Music Cover",
+          "order": 5
+        },
+        "ai_generated_music_vocal": {
+          "title": "AI-Generated Music Vocal",
+          "order": 6
+        }
+      },
+      "chartLabels": [
+        {
+          "text": "ai_generated",
+          "score": 0.9748709221487042
+        },
+        {
+          "text": "deepfake",
+          "score": 0
+        }
+      ],
+      "subClassCountOverThreshold": 2
+    }
+  ]
+}
