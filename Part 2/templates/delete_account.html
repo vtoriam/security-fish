@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>KeyNest — Delete account</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Serif+Display&display=swap');
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'DM Sans',sans-serif;background:#f5f5f3;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:1rem}
+  .card{background:#fff;border:0.5px solid #e0ddd4;border-radius:16px;padding:2.5rem 2rem;width:100%;max-width:400px}
+  .logo{font-family:'DM Serif Display',serif;font-size:22px;margin-bottom:2px}
+  .logo span{color:#534AB7}
+  .sub{font-size:13px;color:#888780;margin-bottom:2rem}
+  .warning-box{background:#fcebeb;border:0.5px solid #f7c1c1;border-radius:10px;padding:12px 14px;margin-bottom:1.5rem;font-size:13px;color:#a32d2d;line-height:1.6}
+  .warning-box strong{display:block;margin-bottom:4px;font-size:14px}
+  label{font-size:12px;font-weight:500;color:#5F5E5A;display:block;margin-bottom:5px}
+  input{width:100%;padding:9px 12px;border:0.5px solid #d3d1c7;border-radius:8px;font-size:14px;font-family:inherit;color:#2c2c2a;background:#fafaf8;margin-bottom:1rem;outline:none}
+  input:focus{border-color:#E24B4A;box-shadow:0 0 0 3px #fcebeb}
+  .btn-danger{width:100%;padding:10px;background:#E24B4A;color:#fff;border:none;border-radius:8px;font-size:14px;font-weight:500;font-family:inherit;cursor:pointer}
+  .btn-danger:hover{background:#A32D2D}
+  .alert{font-size:13px;padding:9px 12px;border-radius:8px;margin-bottom:1rem}
+  .alert-error{background:#fcebeb;color:#a32d2d;border:0.5px solid #f7c1c1}
+  .alert-warning{background:#faeeda;color:#633806;border:0.5px solid #fac775}
+  .back{display:block;text-align:center;margin-top:1rem;font-size:13px;color:#888780;text-decoration:none}
+  .back:hover{color:#2c2c2a}
+  .confirm-hint{font-size:11px;color:#888780;margin-top:-10px;margin-bottom:1rem}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="logo">Key<span>Nest</span></div>
+  <div class="sub">Delete account</div>
+
+  {% for cat, msg in get_flashed_messages(with_categories=True) %}
+  <div class="alert alert-{{ cat }}">{{ msg }}</div>
+  {% endfor %}
+
+  <div class="warning-box">
+    <strong>This cannot be undone.</strong>
+    Deleting your account will permanently remove your profile and all your vault entries. This action is irreversible.
+  </div>
+
+  <form method="POST">
+    <label>Confirm your password</label>
+    <input type="password" name="password" placeholder="Enter your current password" required autocomplete="current-password">
+    <label>Type DELETE to confirm</label>
+    <input type="text" name="confirm" placeholder="DELETE" required autocomplete="off">
+    <p class="confirm-hint">Type the word DELETE in capitals to confirm you understand this is permanent.</p>
+    <button class="btn-danger" type="submit">Permanently delete my account</button>
+  </form>
+  <a href="/dashboard" class="back">Cancel — go back to vault</a>
+</div>
+</body>
+</html>

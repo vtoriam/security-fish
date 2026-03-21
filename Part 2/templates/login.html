@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>KeyNest — Sign in</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Serif+Display&display=swap');
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'DM Sans',sans-serif;background:#f5f5f3;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:1rem}
+  .card{background:#fff;border:0.5px solid #e0ddd4;border-radius:16px;padding:2.5rem 2rem;width:100%;max-width:380px}
+  .logo{font-family:'DM Serif Display',serif;font-size:22px;margin-bottom:2px}
+  .logo span{color:#534AB7}
+  .sub{font-size:13px;color:#888780;margin-bottom:2rem}
+  label{font-size:12px;font-weight:500;color:#5F5E5A;display:block;margin-bottom:5px}
+  input{width:100%;padding:9px 12px;border:0.5px solid #d3d1c7;border-radius:8px;font-size:14px;font-family:inherit;color:#2c2c2a;background:#fafaf8;margin-bottom:1rem;outline:none}
+  input:focus{border-color:#534AB7;box-shadow:0 0 0 3px #EEEDFE}
+  .btn{width:100%;padding:10px;background:#534AB7;color:#fff;border:none;border-radius:8px;font-size:14px;font-weight:500;font-family:inherit;cursor:pointer}
+  .btn:hover{background:#3C3489}
+  .alert{font-size:13px;padding:9px 12px;border-radius:8px;margin-bottom:1rem}
+  .alert-error{background:#fcebeb;color:#a32d2d;border:0.5px solid #f7c1c1}
+  .alert-warning{background:#faeeda;color:#633806;border:0.5px solid #fac775}
+  .alert-success{background:#e1f5ee;color:#085041;border:0.5px solid #9fe1cb}
+  .foot{text-align:center;margin-top:1.25rem;font-size:13px;color:#888780}
+  .foot a{color:#534AB7;text-decoration:none}
+  .foot a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="logo">Key<span>Nest</span></div>
+  <div class="sub">Family password manager</div>
+  {% for cat, msg in get_flashed_messages(with_categories=True) %}
+  <div class="alert alert-{{ cat }}">{{ msg }}</div>
+  {% endfor %}
+  <form method="POST">
+    <label>Username</label>
+    <input type="text" name="username" placeholder="Enter your username" required autocomplete="username">
+    <label>Password</label>
+    <input type="password" name="password" placeholder="Enter your password" required autocomplete="current-password">
+    <button class="btn" type="submit">Sign in</button>
+  </form>
+  <div class="foot">
+    Don't have an account? <a href="/register">Create one</a>
+  </div>
+</div>
+</body>
+</html>
