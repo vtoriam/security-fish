@@ -1,0 +1,270 @@
+[
+  {
+    "timestamp": "2026-04-24T03:17:12.527947Z",
+    "ioc": "185.220.101.45",
+    "ioc_type": "ip",
+    "threat_score": 57.3,
+    "threat_level": "HIGH",
+    "virustotal": {
+      "malicious": 16,
+      "suspicious": 4,
+      "harmless": 46,
+      "undetected": 28,
+      "total_engines": 94,
+      "reputation": -22,
+      "country": "DE",
+      "owner": "Stiftung Erneuerbare Freiheit",
+      "asn": 60729
+    },
+    "abuseipdb": {
+      "confidence": 94,
+      "country": "DE",
+      "isp": "Network for Tor-Exit traffic.",
+      "domain": "for-privacy.net",
+      "total_reports": 98,
+      "last_reported": "2026-04-24T01:20:59+00:00",
+      "is_whitelisted": false,
+      "usage_type": "Fixed Line ISP"
+    }
+  },
+  {
+    "timestamp": "2026-04-24T03:17:32.296330Z",
+    "ioc": "malicious-domain.com",
+    "ioc_type": "domain",
+    "threat_score": 36.4,
+    "threat_level": "MEDIUM",
+    "virustotal": {
+      "malicious": 12,
+      "suspicious": 0,
+      "harmless": 51,
+      "undetected": 31,
+      "total_engines": 94,
+      "reputation": -1,
+      "registrar": "Amazon Registrar, Inc.",
+      "created": 1562316284,
+      "categories": []
+    },
+    "abuseipdb": {}
+  },
+  {
+    "timestamp": "2026-04-24T03:17:43.676907Z",
+    "ioc": "185.220.101.45",
+    "ioc_type": "ip",
+    "threat_score": 57.3,
+    "threat_level": "HIGH",
+    "virustotal": {
+      "malicious": 16,
+      "suspicious": 4,
+      "harmless": 46,
+      "undetected": 28,
+      "total_engines": 94,
+      "reputation": -22,
+      "country": "DE",
+      "owner": "Stiftung Erneuerbare Freiheit",
+      "asn": 60729
+    },
+    "abuseipdb": {
+      "confidence": 94,
+      "country": "DE",
+      "isp": "Network for Tor-Exit traffic.",
+      "domain": "for-privacy.net",
+      "total_reports": 98,
+      "last_reported": "2026-04-24T01:20:59+00:00",
+      "is_whitelisted": false,
+      "usage_type": "Fixed Line ISP"
+    }
+  },
+  {
+    "timestamp": "2026-04-24T03:17:53.632305Z",
+    "ioc": "d41d8cd98f00b204e9800998ecf8427e",
+    "ioc_type": "md5",
+    "threat_score": 0.0,
+    "threat_level": "LOW",
+    "virustotal": {
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 61,
+      "total_engines": 61,
+      "reputation": 2036,
+      "file_name": "android-cts-7.1_r6-linux_x86-arm.zip",
+      "file_type": "unknown",
+      "file_size": 0,
+      "tags": [
+        "legit",
+        "trusted",
+        "attachment",
+        "nsrl",
+        "runtime-modules"
+      ]
+    },
+    "abuseipdb": {}
+  },
+  {
+    "timestamp": "2026-04-24T03:18:50.709938Z",
+    "ioc": "185.220.101.45",
+    "ioc_type": "ip",
+    "threat_score": 57.3,
+    "threat_level": "HIGH",
+    "virustotal": {
+      "malicious": 16,
+      "suspicious": 4,
+      "harmless": 46,
+      "undetected": 28,
+      "total_engines": 94,
+      "reputation": -22,
+      "country": "DE",
+      "owner": "Stiftung Erneuerbare Freiheit",
+      "asn": 60729
+    },
+    "abuseipdb": {
+      "confidence": 94,
+      "country": "DE",
+      "isp": "Network for Tor-Exit traffic.",
+      "domain": "for-privacy.net",
+      "total_reports": 98,
+      "last_reported": "2026-04-24T01:20:59+00:00",
+      "is_whitelisted": false,
+      "usage_type": "Fixed Line ISP"
+    }
+  },
+  {
+    "timestamp": "2026-04-24T03:19:18.119233Z",
+    "ioc": "44d88612fea8a8f36de82e1278abb02f",
+    "ioc_type": "md5",
+    "threat_score": 78.6,
+    "threat_level": "CRITICAL",
+    "virustotal": {
+      "malicious": 67,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 2,
+      "total_engines": 69,
+      "reputation": 3733,
+      "file_name": "eicar.com-29867",
+      "file_type": "Powershell",
+      "file_size": 68,
+      "tags": [
+        "long-sleeps",
+        "via-tor",
+        "attachment",
+        "idle",
+        "powershell"
+      ]
+    },
+    "abuseipdb": {}
+  },
+  {
+    "timestamp": "2026-04-24T03:25:40.305175Z",
+    "ioc": "185.200.116.70",
+    "ioc_type": "ip",
+    "threat_score": 53.7,
+    "threat_level": "HIGH",
+    "virustotal": {
+      "malicious": 7,
+      "suspicious": 2,
+      "harmless": 51,
+      "undetected": 34,
+      "total_engines": 94,
+      "reputation": -2,
+      "country": "SG",
+      "owner": "M247 Europe SRL",
+      "asn": 9009
+    },
+    "abuseipdb": {
+      "confidence": 100,
+      "country": "SG",
+      "isp": "M247 LTD Singapore Infrastructure",
+      "domain": "m247.com",
+      "total_reports": 897,
+      "last_reported": "2026-04-21T11:42:45+00:00",
+      "is_whitelisted": false,
+      "usage_type": "Data Center/Web Hosting/Transit"
+    }
+  },
+  {
+    "timestamp": "2026-04-24T03:46:50.183695Z",
+    "ioc": "land-1.godn2strich.in.net",
+    "ioc_type": "domain",
+    "threat_score": 31.6,
+    "threat_level": "MEDIUM",
+    "virustotal": {
+      "malicious": 3,
+      "suspicious": 0,
+      "harmless": 53,
+      "undetected": 38,
+      "total_engines": 94,
+      "reputation": -11,
+      "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
+      "created": 783144000,
+      "categories": [
+        "information technology",
+        "spyware and malware"
+      ]
+    },
+    "abuseipdb": {}
+  },
+  {
+    "timestamp": "2026-04-24T03:47:15.661338Z",
+    "ioc": "auto-shopping.l0gik.com.br",
+    "ioc_type": "domain",
+    "threat_score": 0.0,
+    "threat_level": "LOW",
+    "virustotal": {
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 61,
+      "undetected": 33,
+      "total_engines": 94,
+      "reputation": -11,
+      "registrar": "N/A",
+      "created": "N/A",
+      "categories": []
+    },
+    "abuseipdb": {}
+  },
+  {
+    "timestamp": "2026-04-24T03:47:27.002545Z",
+    "ioc": "dark-open-5.godn2strich.in.net",
+    "ioc_type": "domain",
+    "threat_score": 31.6,
+    "threat_level": "MEDIUM",
+    "virustotal": {
+      "malicious": 3,
+      "suspicious": 0,
+      "harmless": 52,
+      "undetected": 39,
+      "total_engines": 94,
+      "reputation": -11,
+      "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
+      "created": 783144000,
+      "categories": [
+        "information technology",
+        "spyware and malware"
+      ]
+    },
+    "abuseipdb": {}
+  },
+  {
+    "timestamp": "2026-04-24T03:48:44.896429Z",
+    "ioc": "holz-baum-4.godn2strich.in.net",
+    "ioc_type": "domain",
+    "threat_score": 31.1,
+    "threat_level": "MEDIUM",
+    "virustotal": {
+      "malicious": 2,
+      "suspicious": 0,
+      "harmless": 54,
+      "undetected": 38,
+      "total_engines": 94,
+      "reputation": 0,
+      "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
+      "created": 783144000,
+      "categories": [
+        "information technology",
+        "dynamic dns and isp sites"
+      ]
+    },
+    "abuseipdb": {}
+  }
+]
